@@ -23,11 +23,13 @@
     ABC影城票價全面八折優惠1個月
     </marquee>
   </div>
+  <div id="mm">
  <?php
 $do=$_GET['do']??"main";
 $file="front/".$do.".php";
 include file_exists($file)?$file:"front/main.php";
  ?>
+  </div>
   <div id="bo"> ©Copyright 2010~2020 ABC影城 版權所有 </div>
 </div>
 </body>

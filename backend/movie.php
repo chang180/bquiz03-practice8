@@ -10,6 +10,7 @@ foreach($movies as $m){
 <div>
 <div>片名：<?=$m['name'];?> 片長：<?=$m['length'];?> 上映時間：<?=$m['date'];?></div>
 <div>
+    排序：<?=$m['rank'];?>顯示：<?=$m['sh'];?>
     <a href="?do=edit_movie&id=<?=$m['id'];?>"><button>編輯電影</button></a>
     <a href="api/del_movie.php?id=<?=$m['id'];?>"><button>刪除電影</button></a>
 </div>
